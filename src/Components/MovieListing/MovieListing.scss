@@ -1,0 +1,23 @@
+@import "../../Common/Colours.scss";
+.movie-list,.show-list{
+    margin:20px 0px;
+    // overflow-x: hidden;
+    // overflow-y: hidden;
+
+    h2{
+          color:$font-secondary;
+          margin-bottom: 10px;
+          font-weight: 400;
+    }
+}
+// .movie-container{
+//     display: grid;
+//     grid-gap: 15px;
+//     grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+// }
+
+.movie-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
